@@ -1,0 +1,93 @@
+*{
+    background-color: rgb(195, 230, 187);
+    margin: 10px;
+}
+
+body{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(70, 101, 204);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: left;
+    background-color: rgb(70, 101, 204);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+p{
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: medium;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select,
+textarea{
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+fieldset,legend{
+    background-color: white;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+em{
+    padding: 10px;
+    background-color: white;
+}
+
+input[type="submit"]{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: x-large;
+    border: none;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(54, 177, 70);
+    padding: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+input[type="reset"]{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: x-large;
+    border: none;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(192, 13, 13);
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+img{
+    width: 400px;
+}
