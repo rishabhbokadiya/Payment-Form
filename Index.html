@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Payment Form</title>
+  </head>
+
+  <body>
+    <h1>Payment Form</h1>
+
+    <h2>Personal Details</h2>
+
+    <p>First Name : <input type="text" name="first_name" id="first_name" /></p>
+
+    <p>Last Name : <input type="text" name="last_name" id="last_name" /></p>
+
+    <p>
+      Father's Name : <input type="text" name="father_name" id="father_name" />
+    </p>
+    <fieldset>
+      <legend>Gender</legend>
+    <em>
+        Male :
+        <input type="radio" name="gender" id="male" />
+    </em>
+    <em>
+        Female :
+        <input type="radio" name="gender" id="female" />
+    </em>
+    </fieldset>
+
+
+    <p>Mobile No. : <input type="number" name="mob_no" id="mob_no" /></p>
+
+    <p>Email : <input type="email" name="email" id="email" /></p>
+
+    <p>
+      Address :
+      <textarea name="address" id="address" cols="30" rows="10"></textarea>
+    </p>
+
+    <p>PIN Code : <input type="number" name="pincode" id="pincode" /></p>
+
+    <h2>Payment Details</h2>
+
+    <p>Accepted Cards</p>
+
+    <p><img src="Payment Cards.png" alt="Payment Cards" /></p>
+
+    <p>
+      Card Type :
+      <select name="accepted_cards" id="accepted_cards">
+        <option value="">--Select Card Type--</option>
+
+        <option value="Mastercard">Master Card</option>
+
+        <option value="Visa">Visa</option>
+
+        <option value="Rupay">Rupay</option>
+
+        <option value="Discover">Discover</option>
+
+        <option value="American_Express">American Express</option>
+      </select>
+    </p>
+
+    <p>
+      Card Number : <input type="number" name="card_number" id="card_number" />
+    </p>
+
+    <p>Expiration Date : <input type="date" name="exp_date" id="exp_date" /></p>
+
+    <p>
+      Card Holder Name :
+      <input type="text" name="card_holder_name" id="card_holder_name" />
+    </p>
+
+    <p>CVV : <input type="password" name="cvv" id="cvv" /></p>
+
+    <p>OTP : <input type="number" name="otp" id="otp" /></p>
+
+    <input type="submit" value="Pay Now" />
+
+    <input type="reset" value="Reset" />
+  </body>
+</html>
